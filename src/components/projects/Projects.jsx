@@ -5,16 +5,16 @@ const Projects = () => {
   return (
     <div id="projects" className="relative z-50 my-12 lg:my-24">
       
-      {/* Section heading with gradient glow effect */}
-      <div className="sticky top-10 z-10">
-        <div className="relative flex items-center">
-          <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl opacity-30"></div>
-          <span className="bg-[#1a1443] w-fit text-white px-5 py-3 text-xl rounded-md z-20">
-            PROJECTS
-          </span>
-          <span className="flex-1 h-[2px] bg-[#1a1443]"></span>
-        </div>
-      </div>
+      <div className="flex justify-center my-5 lg:py-8">
+  <div className="flex items-center gap-4">
+    <span className="w-24 h-[2px] bg-[#1a1443]" />
+    <span className="bg-[#1a1443] text-white p-2 px-5 text-xl rounded-md">
+      PROJECTS
+    </span>
+    <span className="w-24 h-[2px] bg-[#1a1443]" />
+  </div>
+</div>
+
 
       {/* Cards layout with staggered sticky */}
       <div className="pt-24">

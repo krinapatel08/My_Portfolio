@@ -22,7 +22,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-5">
           <a
-            href="https://github.com/krinapatel08/my-portfolio"
+            href="https://github.com/krinapatel08/My_Portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
@@ -31,7 +31,7 @@ export default function Footer() {
             <span>Star</span>
           </a>
           <a
-            href="https://github.com/krinapatel08/my-portfolio/fork"
+            href="https://github.com/krinapatel08/My_Portfolio/fork"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"

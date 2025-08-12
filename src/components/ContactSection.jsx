@@ -58,14 +58,24 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-16 flex justify-center">
-      <div className="max-w-3xl w-full text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
-        <h2 className="text-3xl font-semibold text-center mb-8">Contact Me</h2>
+    <section id="contact" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+  {/* Heading with horizontal lines and box style */}
+  <div className="flex justify-center my-5 lg:py-8">
+    <div className="flex items-center">
+      <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+      <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+        Contact Me
+      </span>
+      <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+    </div>
+  </div>
 
-        <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact with me</p>
-        <p className="text-sm text-[#d3d8e8]">
-          If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.
-        </p>
+  {/* Box container for content */}
+  <div className="max-w-3xl w-full text-white rounded-lg border border-[#464c6a] p-6 mx-auto">
+    <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact with me</p>
+    <p className="text-sm text-[#d3d8e8]">
+      If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.
+    </p>
         <form onSubmit={handleSendMail} className="mt-6 flex flex-col gap-4">
           {/* Name */}
           <div className="flex flex-col gap-2">
